@@ -11,7 +11,7 @@ public class DevConfig {
     public MyEnvironment myEnvironment() {
         return MyEnvironment.builder()
                 .mode("개발환경")
-                .build();
+                .build(); // build()를 통해 다시 MyEnvironment를 return하게 됨
 
     }
 }
